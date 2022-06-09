@@ -1,0 +1,90 @@
+.books_container
+{
+    padding-top: 70px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.search_form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // margin-top: 10vh;
+    .search_item
+    {
+        width: 60vw;
+        margin: 2px;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 117, 69);
+    }
+    .search_btn
+    {
+        background-color: rgb(100, 255, 160);
+        width: 55vw;
+    }
+    .search_btn:hover
+    {
+        background-color: rgb(2, 255, 99);
+    }
+}
+
+.quote
+{
+    font-family: 'Asap', sans-serif;
+    margin-top: 10vh;
+    margin-left: 4vw;
+    margin-right: 0;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.quote::before
+{
+    content: open-quote;
+}
+.quote::after
+{
+    content: close-quote;
+}
+.book_img
+{
+    width: 80vw;
+    margin: 5vh 7vw;
+    border-radius: 50%;
+    opacity: 0.92;
+}
+@media screen and (min-width: 990px){
+    .search_form
+    {
+       position: absolute;
+       top: 16vh;
+       right: 10vw;
+        margin-top: 10vh;
+        .search_item
+        {
+            width: 15vw;
+            margin: 4px;
+            
+        }
+        .search_btn
+        {
+            background-color: rgb(100, 255, 160);
+            width: 14vw;
+        }
+    }
+    .quote
+    {
+        width: fit-content;
+        margin-top: 10vh;
+        margin-left: 10vw;
+        margin-right: 5vw;
+        font-size: 2.5rem;
+    }
+    .book_img
+    {
+        width: 28vw;
+        margin: 5vh 20vw;
+        border-radius: 50%;
+        opacity: 1;
+    }
+}

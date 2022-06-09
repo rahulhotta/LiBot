@@ -1,0 +1,19 @@
+@import "./NavBar.scss";
+@import "./Home.scss";
+@import "Books.scss";
+@import "./About.scss";
+@import "./LogIn.scss";
+@import './Card.scss';
+@import "~bootstrap/scss/bootstrap";
+
+body
+{
+    height: calc(100vh + 100px);
+    background-image: linear-gradient(to left , rgba(255,0,0,0), rgb(0, 214, 170,1));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    
+}
+

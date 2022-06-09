@@ -1,0 +1,81 @@
+.home_container
+{
+    width: fit-content;
+    margin-right: 0;
+    overflow: hidden;
+}
+.home_heading
+{
+    display: flex;
+    padding-top:70px ;
+    font-family: 'Asap', sans-serif;
+    font-weight: 800;
+    font-size: 1.6rem;
+    margin: 10vh 10vw;
+    margin-bottom: 0;
+}
+
+.home_img
+{
+    width: 80vw;
+    margin: 5vh 10vw;
+}
+
+.home_des
+{
+    font-family: 'Asap', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin: 0 10vw;
+}
+.home_books_btn
+{
+    margin: 3vh 10vw;
+    background-color: rgb(100, 255, 160);
+    border-radius: 5px;
+    border: 2px solid rgb(0, 120, 46);
+    color: black;
+    font-weight: 600;
+}
+.home_books_btn:hover
+{
+    background-color: rgb(2, 255, 99);
+}
+
+@media screen and (min-width:990px) {
+    .home_heading
+    {
+        font-size: 2.2rem;
+        margin: 10vh 10vw;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .home_img
+    {
+        width: 30vw;
+        margin: 0;
+        position: absolute;
+        top: 30vh;
+        left: 35vw;
+    }
+
+.home_des
+{
+    font-family: 'Asap', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin: 3vh 10vw;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.home_books_btn
+{
+    margin: 3vh 10vw;
+    background-color: rgb(100, 255, 160);
+    border-radius: 5px;
+    border: 2px solid rgb(0, 120, 46);
+    color: black;
+    font-weight: 600;
+}
+}
